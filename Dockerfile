@@ -1,8 +1,7 @@
 FROM golang
-RUN mkdir -p /go/src/deps
+RUN mkdir -p /go/src/
 
-ADD Gopkg.toml /go/src/deps
-WORKDIR /go/src/deps
+WORKDIR /go/src/
 
 RUN go get -v github.com/go-openapi/errors
 RUN go get -v github.com/go-openapi/loads
