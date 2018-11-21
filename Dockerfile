@@ -12,4 +12,3 @@ RUN go get -v github.com/go-openapi/swag
 RUN go get -v github.com/go-openapi/validate
 RUN go get -v github.com/go-pg/pg
 RUN go get -v github.com/jessevdk/go-flags
-RUN go get -v golang.org/x/net
